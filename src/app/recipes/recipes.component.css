@@ -1,0 +1,27 @@
+.recipes {
+    text-align: center;
+  }
+  
+  .recipes form {
+    display: inline-block;
+    margin: 0 auto;
+  }
+  
+  .recipes label {
+    display: block;
+    margin-bottom: 0.5em;
+  }
+  
+  .recipes input[type="text"] {
+    width: 50%;
+    padding: 0.5em;
+    border: 1px solid #ccc;
+  }
+  
+  .recipes button[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 0.5em 1em;
+    border: none;
+    cursor: pointer;
+  }  
