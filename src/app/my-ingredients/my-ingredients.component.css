@@ -1,0 +1,87 @@
+body {
+    font-family: Arial, sans-serif;
+    }
+    
+    header {
+    background-color: #9cb8b2;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    }
+    
+    .logo {
+    font-size: 20px;
+    font-weight: bold;
+    color: #ffffff;
+    }
+    
+    nav ul {
+    display: flex;
+    list-style: none;
+    }
+    
+    nav li {
+    margin-right: 15px;
+    }
+    
+    nav a {
+    font-size: 16px;
+    color: #ffffff;
+    text-decoration: none;
+    }
+    
+    nav a:hover,
+    nav a.active {
+    text-decoration: underline;
+    }
+    
+    main {
+    margin: 20px;
+    }
+    
+    form {
+    display: flex;
+    flex-direction: column;
+    }
+    
+    form label {
+    font-size: 16px;
+    }
+    
+    form input[type="text"] {
+    font-size: 16px;
+    padding: 5px;
+    margin-bottom: 10px;
+    }
+    
+    form button[type="submit"] {
+    font-size: 16px;
+    background-color: #9cb8b2;
+    color: #ffffff;
+    border: none;
+    padding: 8px;
+    }
+    
+    .ingredient-list {
+    margin-top: 20px;
+    }
+    
+    .ingredient-list h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    }
+    
+    .ingredient-list ul {
+        list-style: none;
+padding: 0;
+}
+
+.ingredient-list li {
+font-size: 16px;
+margin-bottom: 5px;
+}
+
+.ingredient-list li:last-of-type {
+margin-bottom: 0;
+}
