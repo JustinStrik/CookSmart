@@ -2,8 +2,7 @@ import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { HomeComponent } from './home/home.component';
 import { MyIngredientsComponent } from './my-ingredients/my-ingredients.component';
-import { SearchRecipesComponent } from './search-recipes/search-recipes.component';
-
+import { RecipesComponent } from './recipes/recipes.component';
 const routes: Routes = [
   {
     // default path
@@ -15,8 +14,8 @@ const routes: Routes = [
     component: MyIngredientsComponent,
   },
   {
-    path: 'search-recipes',
-    component: SearchRecipesComponent,
+    path: 'recipes',
+    component: RecipesComponent,
   }
 ];
 

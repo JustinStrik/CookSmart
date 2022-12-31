@@ -5,7 +5,6 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 import { MyIngredientsComponent } from './my-ingredients/my-ingredients.component';
-import { SearchRecipesComponent } from './search-recipes/search-recipes.component';
 import { ShoppingListComponent } from './shopping-list/shopping-list.component';
 import { RecipesComponent } from './recipes/recipes.component';
 
@@ -14,7 +13,6 @@ import { RecipesComponent } from './recipes/recipes.component';
     AppComponent,
     HomeComponent,
     MyIngredientsComponent,
-    SearchRecipesComponent,
     ShoppingListComponent,
     RecipesComponent
   ],
